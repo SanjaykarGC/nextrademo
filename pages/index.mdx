@@ -1,0 +1,75 @@
+import {Callout} from "nextra-theme-docs";
+import {Tabs, Steps, Cards, Card} from "nextra/components";
+
+# Welcome
+
+Welcome to Nextra Sample
+
+## Nextra Theme Docs
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+### Heading Three
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+## Theme Docs
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+### Footer Three
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+<Callout type="warning">
+    ### Warning
+
+    This is warning callout. Make sure to pay attention.
+</Callout>
+  ```js
+    import {React} from "react";
+    export default function Component(){
+        return (
+            <h1>NextJs is the Best Framework</h1>
+        )
+    }
+    ```
+
+<Tabs items={["JavaScript" , "Java" , "ReactJS"]}>
+    <Tabs.Tab>
+    JavaScript is Powerhouse of the Web
+      ```js
+    import {React} from "react";
+    export default function Component(){
+        return (
+            <h1>NextJs is the Best Framework</h1>
+        )
+    }
+    ```
+    </Tabs.Tab>
+    <Tabs.Tab>Java is not JavaScript</Tabs.Tab>
+    <Tabs.Tab>ReactJS just nukes themselfs.</Tabs.Tab>
+</Tabs>
+
+<Steps>
+    ### Step 1
+    Download and install NodeJs
+
+    ### Step 2
+    Download and install `git`
+
+    ### Step 3
+    Clone the GitHub repository
+
+    ### Step 4
+    Run `npm install`
+
+    ### Step 5
+    Run your application using `mpm run dev`
+
+</Steps>
+
+
+<Cards>
+    <Card title="Getting Started" href="/getting-started-with-nextjs" />
+    <Card title="NextJs in the cloud" href="/cloud-development/cloud-development" />
+    <Card title="Internet of Things" href="/cloud-development/internet-of-things" />
+</Cards>

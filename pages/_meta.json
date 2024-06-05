@@ -1,0 +1,15 @@
+{
+    "index":"Homepage",
+    "getting-started-with-nextjs":"Getting Started",
+    "cloud-development":"Cloud development",
+    "contact":{
+        "title": "Contact Me",
+        "type":"page",
+        "href": "https://youtube.com",
+        "newWindow": true
+    },
+    "aboutus":{
+        "title": "About Me",
+        "type": "page"
+    }
+}
